@@ -50,3 +50,69 @@
   color: #3b2f2f;
   background-color: transparent;
 }
+.about-hero {
+  background-color: #fff4e9;
+  padding: 40px 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-hero h1 {
+  font-size: 2.5rem;
+  color: #7a3e3e;
+  margin-bottom: 10px;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.about-hero h2 {
+  font-size: 2rem;
+  color: #5c2d2d;
+  margin: 30px 0;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-grid .box {
+  background-color: #f9d3b4;
+  padding: 20px;
+  border-radius: 12px;
+  font-size: 1rem;
+  color: #3c2c2c;
+  font-weight: 500;
+}
+
+.about-grid img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.about-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 50px;
+  padding-top: 30px;
+  border-top: 1px solid #ccc;
+  font-size: 0.95rem;
+  color: #4d3b3b;
+}
+
+.about-footer > div {
+  margin: 15px;
+  min-width: 150px;
+}
